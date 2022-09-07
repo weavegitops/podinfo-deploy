@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Magalix
+      - name: PolicyScan
         uses: magalixcorp/magalix-action@main
         with:
           webhook: https://policy.weave.works/api/v1/kubeguard/f5e76f4f-938e-4af2-91ad-9698030224ef/40cbaa31-65d2-4798-bca2-3df16f45c339
