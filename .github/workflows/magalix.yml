@@ -1,4 +1,4 @@
-name: Magalix
+name: WeavePolicyAgent
 on:
   push:
     branches: [ main ]
